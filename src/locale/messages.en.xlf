@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="de" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="3573402635661460942" datatype="html">
+        <source>Sensorkanalwahl</source>
+        <target>sensor channel selection</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6181669308051802539" datatype="html">
+        <source>Sensormode</source>
+        <target>sensor mode</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="731744549621261242" datatype="html">
+        <source>Externer Dämmerungsschalter</source>
+        <target>external dimmer switch</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4332055026982150575" datatype="html">
+        <source>Tageslichtregelung</source>
+        <target>daylight control</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6138922196290333021" datatype="html">
+        <source>Sollwert</source>
+        <target>target value</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="925220324989863679" datatype="html">
+        <source>Potentiometer</source>
+        <target>potentiometer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6853043657230336493" datatype="html">
+        <source>Ausschaltverhalten</source>
+        <target>turn-off behaviour</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="175407304084766871" datatype="html">
+        <source>Eingang <x id="PH" equiv-text="this.eingangNumber"/></source>
+        <target>input <x id="PH" equiv-text="this.eingangNumber"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9113920684122133109" datatype="html">
+        <source>Einzelsensor</source>
+        <target>single sensor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6735021160005950302" datatype="html">
+        <source>Durschnittswert</source>
+        <target>average value</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3379422145814331129" datatype="html">
+        <source>Aus</source>
+        <target>off</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9026592870868143198" datatype="html">
+        <source>Schließer</source>
+        <target>closer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4791135373519883830" datatype="html">
+        <source>Öffner</source>
+        <target>opener</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4833737891584392161" datatype="html">
+        <source>ausschalten</source>
+        <target>turn off</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9122115845213746745" datatype="html">
+        <source>auf Minimum Dimm</source>
+        <target>lowest dimmer setting</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9211703564261788501" datatype="html">
+        <source>Eingang 1</source>
+        <target>input 1</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

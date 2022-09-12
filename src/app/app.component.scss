@@ -1,0 +1,16 @@
+:host {
+    font-family: -apple-system, -apple-system-font, ".SFNSDisplay-Regular", ".Helvetica NeueUI", Helvetica Neue, sans-serif;
+}
+
+.pro-component-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #fff;
+    border: 2px solid gray;
+    margin: 20px 0;
+    max-width: 750px;
+}
+
+.pro-component-container app-pro-dimm-slider:nth-child(odd) {
+    background-color: #f1f9fd;
+}
