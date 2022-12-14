@@ -8,6 +8,8 @@ import { ProSelectModule } from 'pro-select-component';
 import { ProSliderModule } from 'pro-slider';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,13 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ProDimmSliderModule,
     ProSelectModule,
     ProSliderModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   bootstrap: [AppComponent]
 })
